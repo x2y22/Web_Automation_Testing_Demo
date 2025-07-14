@@ -9,6 +9,7 @@ from tools.read_json import read_json
 from tools.log import GetLogger
 
 logger = GetLogger.getLogger()
+
 def get_data_login():
     datas = read_json("login.json")
     # parameterized要求输入形式：[(a, b ,c, ...), (a, b ,c, ...),(a, b ,c, ...)]
@@ -24,8 +25,6 @@ class TestLogin(unittest.TestCase):
     def setUpClass(cls):
         cls.driver = GetDriver().get_driver()
         cls.login = PageLogin(cls.driver)
-
-
 
     @classmethod
     def tearDownClass(cls):

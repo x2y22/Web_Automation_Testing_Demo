@@ -3,17 +3,15 @@
         1.元素定位
         2.点击元素
         3.获取元素文本
-
 """
 import random
 import time
-
-
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
-from tools.log import GetLogger
 from selenium.common.exceptions import StaleElementReferenceException
+from tools.log import GetLogger
+
 logger = GetLogger.getLogger()
 
 class Base:
@@ -134,15 +132,3 @@ class Base:
         except:
             logger.info("元素" + loc[1] + "不存在")
             return False
-
-
-
-
-
-
-
-
-
-
-
-

@@ -7,7 +7,6 @@ from time import sleep
 import page
 from base.base import Base
 
-
 class PageLogin(Base):
     def __init__(self, driver):
         super().__init__(driver)

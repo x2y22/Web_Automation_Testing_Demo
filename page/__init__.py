@@ -6,11 +6,10 @@ from selenium.webdriver.common.by import By
 # 测试的网址
 url = 'https://www.qunar.com/'
 
-# ------------测试登录功能-------------
 
+# ------------测试登录功能-------------
 # 请求进入登录页面元素信息
 login_please_login = By.XPATH, "//div[contains(text(), '关于去哪儿')]"
-
 # 登录链接
 login_login_link = By.XPATH, "//a[text()='登录']"
 
@@ -40,6 +39,7 @@ login_get_info = By.XPATH, "//div[@class='wrongDesc']/div/span"
 
 # 退出
 login_logout = By.CSS_SELECTOR, "#__loginInfo_r__"
+
 
 # ------------测试购票功能-------------
 # 火车票
@@ -83,6 +83,7 @@ buy_submit_fail_info = By.XPATH, "//div[@class='retitle'][text() = '请正确填
 
 # 错误信息确认按钮
 buy_submit_click_OK = By.XPATH, "//b[text()='确定']"
+
 
 # ---------------发表旅行日记-----------------
 # 攻略

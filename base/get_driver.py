@@ -19,5 +19,4 @@ class GetDriver:
     def quit_driver(cls):
         if cls.driver:
             cls.driver.quit()
-            # 注意一定要将driver置为None
             cls.driver = None

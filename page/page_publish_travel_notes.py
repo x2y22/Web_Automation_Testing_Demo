@@ -1,5 +1,4 @@
 from time import sleep
-
 import page
 from base.base import Base
 
@@ -36,7 +35,6 @@ class PagePublishNotes(Base):
         """
         self.base_click_element(page.publish_new_notes)
 
-
     def page_input_notes_tit(self, tit):
         """
         输入游记标题
@@ -59,8 +57,6 @@ class PagePublishNotes(Base):
         """
         self.base_click_element(page.publish_notes_content)
         self.base_input_element(page.publish_notes_content, content)
-
-
 
     def page_click_publish(self):
         """

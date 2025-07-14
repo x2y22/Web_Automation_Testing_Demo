@@ -8,6 +8,7 @@ from tools.log import GetLogger
 
 logger = GetLogger.getLogger()
 global_var = 0
+
 def get_data():
     datas = read_json("publish_travel_notes.json")
     # parameterized要求输入形式：[(a, b ,c, ...), (a, b ,c, ...),(a, b ,c, ...)]
@@ -24,7 +25,6 @@ class TestPublishNote(unittest.TestCase):
         cls.driver = GetDriver().get_driver()
         cls.publish = PagePublishNotes(cls.driver)
         cls.login = PageLogin(cls.driver)
-
 
     @classmethod
     def tearDownClass(cls):
