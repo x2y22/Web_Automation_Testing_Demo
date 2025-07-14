@@ -1,11 +1,16 @@
 {
-  "buy_ticket_001":{
-//                      一组真实数据
-                    },
+  "buy_ticket_001":{ "start_station":"湖北",
+                "arrive_station": "上海",
+                "time": "2025-07-10",
+                "name":"王二",
+                "id":"937823200002018836",
+                "phone": "13149873464",
+                "success": true,
+                "except_result":null},
 
   "buy_ticket_002":{ "start_station":"北京",
                 "arrive_station": "山西",
-                "time": "2025-07-13",
+                "time": "2025-07-10",
                 "name":"赵三",
                 "id":"wrong id",
                 "phone": "13453371985",
@@ -14,7 +19,7 @@
 
   "buy_ticket_003":{ "start_station":"重庆",
                 "arrive_station": "深圳",
-                "time": "2025-07-13",
+                "time": "2025-07-10",
                 "name":"李四",
                 "id":"142725199908214898",
                 "phone": "13453371973",

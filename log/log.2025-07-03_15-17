@@ -1,0 +1,22 @@
+2025-07-03 15:17:13,616 INFO [admin] [base.py] (base_click_element:44) - 点击元素//span/b[text() = '攻略']
+2025-07-03 15:17:13,718 INFO [admin] [base.py] (base_click_element:44) - 点击元素//li[@class='notes']//b[@class='icon_create']
+2025-07-03 15:17:13,832 INFO [admin] [base.py] (base_change_window:102) - 切换窗口成功
+2025-07-03 15:17:17,177 ERROR [admin] [base.py] (base_find_element:34) - 定位元素//div[@class='btns']/a超时
+2025-07-03 15:17:17,177 INFO [admin] [base.py] (base_if_exist:135) - 元素//div[@class='btns']/a不存在
+2025-07-03 15:17:17,243 INFO [admin] [base.py] (base_click_element:44) - 点击元素//a[@class='tit' and text()='为游记起一个拉轰的名字']
+2025-07-03 15:17:17,285 INFO [admin] [base.py] (base_input_element:70) - 向元素.e_note_tit_edit .title_input输入
+2025-07-03 15:17:18,370 INFO [admin] [base.py] (base_click_element:44) - 点击元素div.memo_node textarea
+2025-07-03 15:17:18,590 INFO [admin] [base.py] (base_input_element:70) - 向元素div.memo_node textarea输入山西，位于中国华北，是一个兼具古代文明与自然风光的省份。作为中国历史上重要的文化发源地之一，山西拥有众多保存完好的古建筑群和丰富的文化遗产，如孔庙、悬空寺、平遥古城等，展现了深厚的历史底蕴和独特的建筑风貌。此外，山西还以其独特的自然景观著称，如五台山、云冈石窟等，这些自然与人文景观相互交融，形成了山西独特而魅力十足的旅游魅力。
+2025-07-03 15:17:19,704 INFO [admin] [base.py] (base_click_element:44) - 点击元素div[data-uniquekey='memo_node_2'] textarea
+2025-07-03 15:17:19,936 INFO [admin] [base.py] (base_input_element:70) - 向元素div[data-uniquekey='memo_node_2'] textarea输入山西，位于中国华北，素有“晋”之称，是中国历史文化名省之一。山西以其丰富的文化遗产和悠久的历史闻名于世。这里保存着众多古老而宏伟的建筑，如平遥古城墙、孔庙、应县木塔等，展示了中华文明的瑰宝。山西不仅有着深厚的文化积淀，还以美丽的自然景观如五台山、黄河壶口瀑布等吸引着无数游客。探访山西，仿佛穿越时光，感受中华文明的厚重与悠久。
+2025-07-03 15:17:21,052 INFO [admin] [base.py] (base_click_element:44) - 点击元素//div[@class='b_note_ft']/a[text() = '发表游记']
+2025-07-03 15:17:24,130 ERROR [admin] [base.py] (base_find_element:34) - 定位元素//div[@class='btns']/a超时
+2025-07-03 15:17:24,130 INFO [admin] [base.py] (base_if_exist:135) - 元素//div[@class='btns']/a不存在
+2025-07-03 15:17:24,131 ERROR [admin] [test_publisj_travel_notes.py] (test_publish_notes:74) - 退出失败
+2025-07-03 15:17:27,213 ERROR [admin] [base.py] (base_find_element:34) - 定位元素//div[@class='btns']/a超时
+2025-07-03 15:17:27,213 INFO [admin] [base.py] (base_if_exist:135) - 元素//div[@class='btns']/a不存在
+2025-07-03 15:17:27,224 ERROR [admin] [base.py] (base_click_element:46) - 点击元素//a[@class='tit' and text()='为游记起一个拉轰的名字']失败
+2025-07-03 15:17:30,302 ERROR [admin] [base.py] (base_find_element:34) - 定位元素//div[@class='btns']/a超时
+2025-07-03 15:17:30,302 INFO [admin] [base.py] (base_if_exist:135) - 元素//div[@class='btns']/a不存在
+2025-07-03 15:17:30,311 ERROR [admin] [base.py] (base_click_element:46) - 点击元素//a[@class='tit' and text()='为游记起一个拉轰的名字']失败
+2025-07-03 15:17:32,453 INFO [admin] [test.py] (<module>:23) - 测试执行成功

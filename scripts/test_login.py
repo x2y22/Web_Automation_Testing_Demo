@@ -1,6 +1,5 @@
 import unittest
 from time import sleep, time
-import page
 
 import page
 from base.get_driver import GetDriver
@@ -11,7 +10,7 @@ from tools.log import GetLogger
 
 logger = GetLogger.getLogger()
 def get_data_login():
-    datas = read_json(page.login_json)
+    datas = read_json("login.json")
     # parameterized要求输入形式：[(a, b ,c, ...), (a, b ,c, ...),(a, b ,c, ...)]
     arrs = []
     for data in datas.values():
@@ -25,6 +24,8 @@ class TestLogin(unittest.TestCase):
     def setUpClass(cls):
         cls.driver = GetDriver().get_driver()
         cls.login = PageLogin(cls.driver)
+
+
 
     @classmethod
     def tearDownClass(cls):

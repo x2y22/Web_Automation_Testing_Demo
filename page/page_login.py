@@ -12,7 +12,6 @@ class PageLogin(Base):
     def __init__(self, driver):
         super().__init__(driver)
         self.global_variable = 0
-
     def page_click_please_login(self):
         """
         点击进有登录按钮的界面

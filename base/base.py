@@ -5,9 +5,12 @@
         3.获取元素文本
 
 """
-
+import random
 import time
+
+
 from selenium.webdriver import ActionChains
+from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from tools.log import GetLogger
 from selenium.common.exceptions import StaleElementReferenceException
@@ -18,7 +21,7 @@ class Base:
         self.driver = driver
         self.action = ActionChains(driver)
 
-    def base_find_element(self, loc, timeout=10, poll=0.5):
+    def base_find_element(self, loc, timeout=3, poll=0.5):
         """
         定位元素
         :param loc: type为元组，包括元素的定位方式与元素信息
@@ -131,3 +134,15 @@ class Base:
         except:
             logger.info("元素" + loc[1] + "不存在")
             return False
+
+
+
+
+
+
+
+
+
+
+
+

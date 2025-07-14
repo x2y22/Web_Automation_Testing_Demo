@@ -1,0 +1,71 @@
+2025-07-03 15:16:12,718 INFO [admin] [base.py] (base_input_element:70) - 向元素//input[@name='pName_0']输入王二
+2025-07-03 15:16:12,789 INFO [admin] [base.py] (base_input_element:70) - 向元素//input[@name='pCertNo_0']输入937823200002018836
+2025-07-03 15:16:12,846 INFO [admin] [base.py] (base_input_element:70) - 向元素//input[@name='contact_name']输入王二
+2025-07-03 15:16:12,911 INFO [admin] [base.py] (base_input_element:70) - 向元素//input[@name='contact_phone']输入13149873464
+2025-07-03 15:16:13,056 INFO [admin] [base.py] (base_click_element:44) - 点击元素/html/body/form/div[2]/div[2]/div[4]/div[2]/div[3]/button
+2025-07-03 15:16:15,063 INFO [admin] [test_buy_tickets.py] (test_buy:48) - 订单提交成功
+2025-07-03 15:16:19,068 INFO [admin] [base.py] (base_if_exist:132) - 元素//li[@class='qhf_train']//span/b[text()='火车票']存在
+2025-07-03 15:16:19,266 ERROR [admin] [test_buy_tickets.py] (test_buy:59) - 回到选票页面失败
+2025-07-03 15:16:20,320 INFO [admin] [base.py] (base_click_element:44) - 点击元素//li[@class='qhf_train']//span/b[text()='火车票']
+2025-07-03 15:16:20,917 INFO [admin] [base.py] (base_input_element:70) - 向元素//input[@name='fromStation']输入北京
+2025-07-03 15:16:20,975 INFO [admin] [base.py] (base_input_element:70) - 向元素//input[@name='toStation']输入山西
+2025-07-03 15:16:22,338 INFO [admin] [base.py] (base_click_element:44) - 点击元素//span[@class='p_btn']/button[@name='stsSearch']
+2025-07-03 15:16:23,443 INFO [admin] [base.py] (base_click_element:44) - 点击元素//span[text()='购  买']
+2025-07-03 15:16:25,786 INFO [admin] [base.py] (base_input_element:70) - 向元素//input[@name='pName_0']输入赵三
+2025-07-03 15:16:25,839 INFO [admin] [base.py] (base_input_element:70) - 向元素//input[@name='pCertNo_0']输入wrong id
+2025-07-03 15:16:25,889 INFO [admin] [base.py] (base_input_element:70) - 向元素//input[@name='contact_name']输入赵三
+2025-07-03 15:16:25,954 INFO [admin] [base.py] (base_input_element:70) - 向元素//input[@name='contact_phone']输入13453371985
+2025-07-03 15:16:26,005 INFO [admin] [base.py] (base_click_element:44) - 点击元素/html/body/form/div[2]/div[2]/div[4]/div[2]/div[3]/button
+2025-07-03 15:16:28,079 INFO [admin] [base.py] (base_click_element:44) - 点击元素//b[text()='确定']
+2025-07-03 15:16:28,727 INFO [admin] [test_buy_tickets.py] (test_buy:76) - 回到选票页面成功
+2025-07-03 15:16:30,046 INFO [admin] [base.py] (base_click_element:44) - 点击元素//li[@class='qhf_train']//span/b[text()='火车票']
+2025-07-03 15:16:30,619 INFO [admin] [base.py] (base_input_element:70) - 向元素//input[@name='fromStation']输入重庆
+2025-07-03 15:16:30,677 INFO [admin] [base.py] (base_input_element:70) - 向元素//input[@name='toStation']输入深圳
+2025-07-03 15:16:32,258 INFO [admin] [base.py] (base_click_element:44) - 点击元素//span[@class='p_btn']/button[@name='stsSearch']
+2025-07-03 15:16:32,825 INFO [admin] [base.py] (base_click_element:44) - 点击元素//span[text()='购  买']
+2025-07-03 15:16:34,647 INFO [admin] [base.py] (base_input_element:70) - 向元素//input[@name='pName_0']输入李四
+2025-07-03 15:16:34,720 INFO [admin] [base.py] (base_input_element:70) - 向元素//input[@name='pCertNo_0']输入142725199908214898
+2025-07-03 15:16:34,775 INFO [admin] [base.py] (base_input_element:70) - 向元素//input[@name='contact_name']输入李四
+2025-07-03 15:16:34,844 INFO [admin] [base.py] (base_input_element:70) - 向元素//input[@name='contact_phone']输入13453371973
+2025-07-03 15:16:34,898 INFO [admin] [base.py] (base_click_element:44) - 点击元素/html/body/form/div[2]/div[2]/div[4]/div[2]/div[3]/button
+2025-07-03 15:16:37,001 INFO [admin] [base.py] (base_click_element:44) - 点击元素//b[text()='确定']
+2025-07-03 15:16:37,687 INFO [admin] [test_buy_tickets.py] (test_buy:76) - 回到选票页面成功
+2025-07-03 15:16:43,738 INFO [admin] [test_login.py] (test_login:37) - 测试登录页面
+2025-07-03 15:16:43,986 INFO [admin] [base.py] (base_click_element:44) - 点击元素//div[contains(text(), '关于去哪儿')]
+2025-07-03 15:16:44,083 INFO [admin] [base.py] (base_change_window:102) - 切换窗口成功
+2025-07-03 15:16:49,726 INFO [admin] [base.py] (base_click_element:44) - 点击元素//a[text()='登录']
+2025-07-03 15:16:49,792 INFO [admin] [base.py] (base_click_element:44) - 点击元素//*[@class='passwordTab']
+2025-07-03 15:16:49,949 INFO [admin] [base.py] (base_input_element:70) - 向元素#username输入13149873464
+2025-07-03 15:16:50,025 INFO [admin] [base.py] (base_input_element:70) - 向元素#password输入wsd20000201
+2025-07-03 15:16:50,068 INFO [admin] [base.py] (base_click_element:44) - 点击元素#agreement
+2025-07-03 15:16:50,123 INFO [admin] [base.py] (base_click_element:44) - 点击元素//div[@class='button' and @role='button']/span[text()='登录']
+2025-07-03 15:16:52,548 INFO [admin] [base.py] (base_drag:122) - 滑动模块成功
+2025-07-03 15:16:53,559 INFO [admin] [base.py] (base_click_element:44) - 点击元素#__loginInfo_r__
+2025-07-03 15:16:53,564 INFO [admin] [base.py] (base_if_exist:132) - 元素#__loginInfo_r__存在
+2025-07-03 15:16:54,133 INFO [admin] [base.py] (base_click_element:44) - 点击元素//a[text()='登录']
+2025-07-03 15:16:54,186 INFO [admin] [base.py] (base_click_element:44) - 点击元素//*[@class='passwordTab']
+2025-07-03 15:16:54,186 INFO [admin] [test_login.py] (test_login:37) - 测试登录页面
+2025-07-03 15:16:54,241 INFO [admin] [base.py] (base_input_element:70) - 向元素#username输入15135974
+2025-07-03 15:16:54,292 INFO [admin] [base.py] (base_input_element:70) - 向元素#password输入shs09211
+2025-07-03 15:16:54,324 INFO [admin] [base.py] (base_click_element:44) - 点击元素#agreement
+2025-07-03 15:16:54,367 INFO [admin] [base.py] (base_click_element:44) - 点击元素//div[@class='button' and @role='button']/span[text()='登录']
+2025-07-03 15:16:56,209 INFO [admin] [base.py] (base_drag:122) - 滑动模块成功
+2025-07-03 15:16:56,257 INFO [admin] [test_login.py] (test_login:71) - 文本提示与预期结果匹配
+2025-07-03 15:16:56,787 INFO [admin] [base.py] (base_click_element:44) - 点击元素//*[@class='passwordTab']
+2025-07-03 15:16:56,787 INFO [admin] [test_login.py] (test_login:37) - 测试登录页面
+2025-07-03 15:16:56,841 INFO [admin] [base.py] (base_input_element:70) - 向元素#username输入1513597fdg4
+2025-07-03 15:16:56,892 INFO [admin] [base.py] (base_input_element:70) - 向元素#password输入shs09211
+2025-07-03 15:16:56,924 INFO [admin] [base.py] (base_click_element:44) - 点击元素#agreement
+2025-07-03 15:16:56,958 INFO [admin] [base.py] (base_click_element:44) - 点击元素//div[@class='button' and @role='button']/span[text()='登录']
+2025-07-03 15:16:58,810 INFO [admin] [base.py] (base_drag:122) - 滑动模块成功
+2025-07-03 15:16:58,819 INFO [admin] [test_login.py] (test_login:71) - 文本提示与预期结果匹配
+2025-07-03 15:16:59,873 INFO [admin] [base.py] (base_click_element:44) - 点击元素//*[@class='passwordTab']
+2025-07-03 15:17:05,815 INFO [admin] [base.py] (base_click_element:44) - 点击元素//div[contains(text(), '关于去哪儿')]
+2025-07-03 15:17:05,933 INFO [admin] [base.py] (base_change_window:102) - 切换窗口成功
+2025-07-03 15:17:08,743 INFO [admin] [base.py] (base_click_element:44) - 点击元素//a[text()='登录']
+2025-07-03 15:17:08,800 INFO [admin] [base.py] (base_click_element:44) - 点击元素//*[@class='passwordTab']
+2025-07-03 15:17:08,877 INFO [admin] [base.py] (base_input_element:70) - 向元素#username输入19562136949
+2025-07-03 15:17:08,940 INFO [admin] [base.py] (base_input_element:70) - 向元素#password输入wsd20000201
+2025-07-03 15:17:08,992 INFO [admin] [base.py] (base_click_element:44) - 点击元素#agreement
+2025-07-03 15:17:09,031 INFO [admin] [base.py] (base_click_element:44) - 点击元素//div[@class='button' and @role='button']/span[text()='登录']
+2025-07-03 15:17:11,299 INFO [admin] [base.py] (base_drag:122) - 滑动模块成功

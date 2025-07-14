@@ -6,12 +6,11 @@ from tools.read_json import read_json
 from page.page_buy_tickets import PageBuyTickets
 from page.page_login import PageLogin
 from tools.log import GetLogger
-import page
 
 logger = GetLogger.getLogger()
 global_val = 0
 def get_data():
-    data = read_json(page.buyTicket_json)
+    data = read_json("buy_tickets.json")
     arrs = []
     for data in data.values():
         arrs.append((data['start_station'],data['arrive_station'],data['time'], data['name'], data['id'],
@@ -37,7 +36,7 @@ class TestBuyTickets(unittest.TestCase):
         global global_val
         # 如果是第一组数据，需要先登录
         if global_val == 0:
-            self.login.page_login(username='13438970225', password='13880188217fu')
+            self.login.page_login(username='13149873464', password='wsd20000201')
             global_val = 1
         # 购票
         self.buy.page_buy_tickets(begin_station, terminal_station, time, name, id, phone)

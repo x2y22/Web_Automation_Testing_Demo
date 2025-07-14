@@ -1,6 +1,5 @@
 import logging.handlers
 import threading
-import page
 
 """ 单例实现logger """
 class GetLogger:
@@ -25,8 +24,8 @@ class GetLogger:
                     sh = logging.StreamHandler()
 
                     # 获取文件处理器，以时间分割
-                    th = logging.handlers.TimedRotatingFileHandler(filename=page.log_file, when="M", interval=1,
-                                                                   backupCount=3, encoding="utf-8", delay=True)
+                    th = logging.handlers.TimedRotatingFileHandler(filename="E:/ZXY/Web-Auto-Testing/log/logg",
+                                                                   when="M", interval=1, backupCount=3, encoding="utf-8", delay=True)
 
                     # 设置格式器
                     fmt = "%(asctime)s %(levelname)s [%(name)s] [%(filename)s] (%(funcName)s:%(lineno)d) - %(message)s"

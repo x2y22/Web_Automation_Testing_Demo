@@ -1,7 +1,8 @@
 {
-  "login_001":{
-//               一组真实数据
-              },
+  "login_001":{ "username":"13149873464",
+                "password": "wsd20000201",
+                "success": true,
+                "expect_result":null},
   "login_002":{ "username":"15135974",
                 "password": "shs09211",
                 "success": false,
@@ -10,4 +11,4 @@
                 "password": "shs09211",
                 "success": false,
                 "expect_result":"用户名或密码错误"}
-},
+}

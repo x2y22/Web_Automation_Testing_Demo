@@ -5,12 +5,11 @@ from parameterized import parameterized
 from tools.read_json import read_json
 from page.page_login import PageLogin
 from tools.log import GetLogger
-import page
 
 logger = GetLogger.getLogger()
 global_var = 0
 def get_data():
-    datas = read_json(page.publish_json)
+    datas = read_json("publish_travel_notes.json")
     # parameterized要求输入形式：[(a, b ,c, ...), (a, b ,c, ...),(a, b ,c, ...)]
     arrs = []
     for data in datas.values():
@@ -26,6 +25,7 @@ class TestPublishNote(unittest.TestCase):
         cls.publish = PagePublishNotes(cls.driver)
         cls.login = PageLogin(cls.driver)
 
+
     @classmethod
     def tearDownClass(cls):
         GetDriver.quit_driver()
@@ -34,7 +34,7 @@ class TestPublishNote(unittest.TestCase):
     def test_publish_notes(self, tit, preface, content, success, expect_result):
         global global_var
         if global_var == 0:
-            self.login.page_login('13438970225', '13880188217fu')
+            self.login.page_login('1314987346', 'wsd20000201')
             global_var = 1
         self.publish.page_publish(tit, preface, content)
         if success:

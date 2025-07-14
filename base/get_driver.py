@@ -4,16 +4,13 @@
 from selenium import webdriver
 import page
 
-from selenium.webdriver.chrome.service import Service
-
 class GetDriver:
     driver = None
 
     @classmethod
     def get_driver(cls):
         if(not cls.driver):
-            cls._service = Service(page.driver_file)
-            cls.driver = webdriver.Chrome(service=cls._service)
+            cls.driver = webdriver.Chrome()
             cls.driver.get(page.url)
             cls.driver.maximize_window()
         return cls.driver
