@@ -4,11 +4,11 @@
 2. page为多页面对象封装，将登录、购票和写游记页面各自封装为单独的对象
 3. test封装每个页面的功能测试
 ###  1、登录
-![[image/test_login.png]]
+![login](image/test_login.png)
 #### 滑动校验功能实现
 
-![[image/test_trag.png]]
+![trag](image/test_trag.png)
 #### 发表游记
-![[image/test_publish.png]]
+![publish](image/test_publish.png)
 #### 购票页面
-![[image/test_buyticket.png]]
+![buyticket](image/test_buyticket.png)
